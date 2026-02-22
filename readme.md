@@ -30,9 +30,13 @@ Key columns:
 The following preprocessing steps were performed:
 
 ✔ Removed rows with missing CustomerID
+
 ✔ Removed cancelled invoices (InvoiceNo starting with "C")
+
 ✔ Removed invalid transactions (Quantity ≤ 0 or UnitPrice ≤ 0)
+
 ✔ Converted InvoiceDate to datetime format
+
 ✔ Created a Revenue column (Quantity × UnitPrice)
 
 After cleaning, the dataset contains only valid completed purchases suitable for customer-level analysis.
