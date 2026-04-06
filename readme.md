@@ -6,7 +6,7 @@ and recommends targeted retention strategies for each segment.
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 
 - Understand customer purchasing behaviour from transaction-level data
 - Engineer RFM (Recency, Frequency, Monetary) features per customer
@@ -16,7 +16,7 @@ and recommends targeted retention strategies for each segment.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [Online Retail Dataset — Kaggle](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset)
 - **Period**: December 2010 – December 2011 (373 days)
@@ -25,7 +25,7 @@ and recommends targeted retention strategies for each segment.
 
 ---
 
-## 🔑 Key Results
+## Results
 
 ### Rule-Based RFM Segments
 
@@ -50,6 +50,7 @@ and recommends targeted retention strategies for each segment.
 ---
 
 ## 📁 Project Structure
+```
 Customer-Segmentation/
 ├── data/
 │   ├── online_retail.csv               # Raw dataset (download from Kaggle)
@@ -62,6 +63,7 @@ Customer-Segmentation/
 ├── 04_kmeans_clustering.ipynb          # K-Means clustering & validation
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## 🚀 How to Run
@@ -83,7 +85,7 @@ Customer-Segmentation/
 
 ---
 
-## 💡 Retention Strategy Recommendations
+## Retention Strategy Recommendations
 
 | Segment | Strategy |
 |---|---|
@@ -96,7 +98,7 @@ Customer-Segmentation/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python** — pandas, numpy, matplotlib, seaborn, scikit-learn
 - **Jupyter Notebook**
