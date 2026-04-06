@@ -109,8 +109,11 @@ Customer-Segmentation/
 
 ## 📈 Visualisations
 
-<!-- Add a screenshot of your best visualisation here -->
-<!-- Drag and drop an image into this section on GitHub -->
+![alt text](image.png)
+Fig: RFM Heatmap
+
+![alt text](image-1.png)
+Fig: Cluster Scatter Plot
 
 ---
 
