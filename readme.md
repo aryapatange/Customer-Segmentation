@@ -110,7 +110,8 @@ Customer-Segmentation/
 ## 📈 Visualisations
 
 ![alt text](image.png)
-    Fig: RFM Heatmap
+
+Fig: RFM Heatmap
 
 ![alt text](image-1.png)
 Fig: Cluster Scatter Plot
